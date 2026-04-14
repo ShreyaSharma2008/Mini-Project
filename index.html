@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products | SoleVibe</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>SoleVibe</h1>
+      <nav class="nav">
+        <a href="#" class="navList">Home</a>
+        <a href="#" class="navList">Products</a>
+        <a href="#" class="navList">Cart</a>
+      </nav>
+    </header>
+    <main>
+      <section id="filters">
+        <h2>Our super collection</h2>
+        <div>
+          <select id="gender_select">
+            <option value=" ">__GENDER__</option>
+            <option value="male">MALE👦🏻</option>
+            <option value="female">FEMALE👧🏻</option>
+          </select>
+          <input type="search" id="search" placeholder="Search Here" />
+        </div>
+      </section>
+      <div id="pro">
+        <section id="products">
+          <h2>Filters</h2>
+          <h4>Gender</h4>
+          <label> <input type="radio" value="male" />Male </label><br />
+          <label> <input type="radio" value="female" />Female </label>
+          <br />
+          <h4>Rating</h4>
+          <input id="rate" type="range" min="0" max="5" step="1" value="0" />
+          <p>Greater than : <span id="rate_val">0</span></p>
+        </section>
+        <section id="category_select">
+          <h4>Category</h4>
+          <label>
+            <input
+              type="checkbox"
+              value="formal"
+              class="cat_check"
+            />Formal </label
+          ><br />
+          <label>
+            <input
+              type="checkbox"
+              value="casual"
+              class="cat_check"
+            />Casual </label
+          ><br />
+          <label>
+            <input
+              type="checkbox"
+              value="running"
+              class="cat_check"
+            />Running </label
+          ><br />
+          <label>
+            <input
+              type="checkbox"
+              value="sports"
+              class="cat_check"
+            />Sports </label
+          ><br />
+          <button id="clearBtn">Clear Filters</button>
+        </section>
+        <section id="productDisplay"></section>
+      </div>
+    </main>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
