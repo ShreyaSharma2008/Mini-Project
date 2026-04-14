@@ -3,7 +3,7 @@ const products = [
     id: 1,
     imgUrl:
       'https://images.meesho.com/images/products/385302359/ypybm_512.avif?width=360',
-    name: 'Men Solid Black T-Shirt',
+    name: 'Men Casual Shoes',
     description: 'Premium cotton solid black t-shirt for everyday wear.',
     rating: 2.4,
     price: 999,

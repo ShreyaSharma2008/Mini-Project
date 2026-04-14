@@ -20,7 +20,7 @@ const displayProducts = (productsToRender) => {
     <img src="${currentProduct.imgUrl}" alt="${currentProduct.name}"/>
     <h3>${currentProduct.name}</h3>
     <p class="card-rating-discount-strip">
-      <span>${currentProduct.rating} 🌟</span>
+      <span>${currentProduct.rating} 🌟🌟</span>
       <span>${currentProduct.discountPercentage}% off</span>
     </p>
     <p class="card-cart-button-strip">
