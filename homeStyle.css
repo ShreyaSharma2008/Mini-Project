@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+  }
+  header{
+    background-color: #1f2937;
+    padding: 15px 2rem;
+  }
+  header h1{
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  .nav{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+  }
+  .navList{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-color: #2a5ea6;
+    padding: 5px 0.75rem;
+  }
+  .navList:hover{
+    opacity: 0.5;
+    background-color: #457dcc;
+  }
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+.image img{
+    border-radius: 20%;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5rem;
+}
+.explore h2{
+    margin: 0px 0px 4rem;
+    font-size: 3.5rem;
+    
+}
+.explore p{
+    margin: 0px 0px 1.5rem;
+    font-size: 1.5rem;
+}
+.explore button{
+    height: 2.5rem;
+    width: 200px;
+    margin: 1rem 0px 2rem;
+    font-size: 1.25rem;
+    background-color: #242222;
+    border-radius: 4px;
+}
+.explore button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.explore button a{
+    text-decoration: none;
+    color: white;
+}
+.foot{
+    text-align: center;
+    font-size: larger;
+    margin: 5rem 0px 0px 0px;
+    color: white;
+    background-color: #7d7979;
+}
