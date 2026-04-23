@@ -71,6 +71,24 @@
     text-decoration: none;
     color: white;
 }
+.journey{
+  margin: 4rem 2rem;
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+.journey h2{
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.journey p{
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .foot{
     text-align: center;
     font-size: larger;
