@@ -48,7 +48,7 @@ header h1{
   display: flex;
   flex-wrap: wrap;
   width: 85%;
-  gap: 5px;
+  gap: 3rem;
 }
 .productCard{
   display: flex;
@@ -58,8 +58,8 @@ header h1{
   border: 2px solid black;
   border-radius: 10px;
   justify-content: space-between;
-  margin: 50px;
-  padding: 15px;
+  margin:1rem 1.5rem;
+  padding: 1rem;
   background-color: antiquewhite;
   line-height: 2;
   box-shadow: 0px 10px 15px 0px #575b5f;
@@ -82,7 +82,7 @@ main{
   border-radius: 10%;
   background-color: rgb(53, 50, 50);
 }
-.clearBtn :hover{
+.clearBtnn:hover{
   background-color: #575b5f;
   opacity: 0.8;
   cursor: pointer;
